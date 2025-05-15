@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mail.css" type="text/css">
+    <title>Congratulation</title>
+</head>
+<body>
+    <header>
+    <h1> Congratulations! Your message was sent succesfully!</h1>
+    <br>
+    <h3>Do you wanna return back?</h3>
+<script>
+    function moveButton() {
+        var button = document.getElementById("runawayButton");
+        var x = Math.random() * (window.innerWidth - button.offsetWidth);
+        var y = Math.random() * (window.innerHeight - button.offsetHeight);
+        button.style.position = "absolute";
+        button.style.left = x + "px";
+        button.style.top = y + "px";
+    }
+</script>
+<button id="runawayButton" onmouseover="moveButton()">YAH!!!</button>
+</script>
+<br>
+<br>
+<img src="happy face.gif" style="height: 300px">
+</header>
+</body>
+</html>
